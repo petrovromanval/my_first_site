@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #F9F9F9;
+}
+
+.header {
+    height: 700px;
+    background-color: #EEEFF1;
+    position: relative;
+}
+
+.header__logo {
+    width: 96px;
+    height: 60px;
+    background-color: rgba(52, 84, 122, 0.8);
+    float: left;
+    margin-left: 402px;
+    margin-top: 57px;
+}
+
+.nav {
+    height: 16px;
+    margin-left: 398px;
+    margin-top: 79px;
+    float: left;
+}
+
+.nav__list {
+    list-style-type: none;
+    float: left;
+    margin-right: 42px;
+}
+
+.nav__link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav__link_active {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #34547A;
+}
+
+.header__picture {
+    clear: both;
+    float: left;
+    margin-top: 161px;
+    margin-left: 503.5px;
+}
+
+.header__text {
+    width: 541px;
+    height: 45px;
+    position: absolute;
+    top: 257px;
+    left: 974px;
+}
+
+.header__text-h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.header__text-p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.header__form-button {
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    position: absolute;
+    top: 489px;
+    left: 975px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.about-me__h3 {
+    margin-top: 119px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+
+.about-me__p {
+    width: 540px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin: 0 auto;
+}
+
+.my-projects {
+    margin-top: 100px;
+    height: 250px;
+    background-color: #34547A;
+}
+
+.my-projects_lists {
+    padding-top: 100px;
+    margin-left: 405px;
+}
+
+.my-projects__list {
+    list-style-type: none;
+    float: left;
+    margin-right: 52.33px;
+}
+
+.my-skills__h3 {
+    margin-top: 204px;
+    margin-left: 386px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    float: left;
+}
+
