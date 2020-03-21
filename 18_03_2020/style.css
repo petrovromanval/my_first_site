@@ -50,14 +50,6 @@
 }
 
 .nav__link_active {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    text-decoration: none;
     color: #34547A;
 }
 
@@ -152,6 +144,10 @@
     margin-right: 52.33px;
 }
 
+.my-skills {
+    float: left;
+}
+
 .my-skills__h3 {
     margin-top: 204px;
     margin-left: 386px;
@@ -162,6 +158,126 @@
     font-size: 32px;
     line-height: 37px;
     color: #000000;
+   
+}
+
+.my-skills__line1st {
+    position: relative;
+    left: 386px;
+}
+
+.my-skills__line2nd {
+    position: relative;
+    left: 386px;
+    top: 70px;
+
+}
+
+.my-skills__line3rd {
+    position: relative;
+    left: 386px;
+    top: 138px;
+
+}
+
+.my-skills__line-p {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.my-skills__line-long {
+    position: absolute;
+    top: 45px;
+    width: 445px;
+    height: 4px;
+    background-color: #C4C4C4;
+}
+
+.my-skills__line-short {
+    position: absolute;
+    top: 45px;
+    width: 349.36px;
+    height: 4px;
+    background-color: #34547A;
+}
+
+.my-photo {
+    float: right;
+    margin-top: 122px;
+    margin-right: 390px;
+    margin-bottom: 121px;
+    width: 555px;
+    height: 410px;
+}
+
+.how-do-i-work {
+    clear: both;
+    background-color: #EEEFF1;;
+}
+
+.how-do-i-work__h3 {
+    padding-top: 100px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+
+.how-do-i-work__p {
+    width: 540px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin: 0 auto;
+}
+
+.how-do-i-work__video {
+    margin: 57px 405px 100px; 
+}
+
+.pictures {
+    margin-top: 28px;
+}
+
+.pictures__odd, .pictures__even {
     float: left;
 }
 
+
+.pictures__mute {
+    width: 480px;
+    height: 480px;
+    position: relative;
+    float: left;
+}
+
+.pictures__mute-pic {
+    display: block;
+    position: absolute;
+}
+
+.pictures__mute-veil {
+    width: 480px;
+    height: 480px;
+    background-color: rgba(52, 84, 122, 0.8);
+    position: absolute;
+}
+
+.pictures__mute-view {
+    position: absolute;
+    top: 211px;
+    left: 190px;
+}
