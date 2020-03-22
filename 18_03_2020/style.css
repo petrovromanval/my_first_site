@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    height: 0;
+}
+
 .container {
     width: 1920px;
     margin: 0 auto;
@@ -26,9 +33,9 @@
 
 .nav {
     height: 16px;
-    margin-left: 398px;
+    margin-right: 371px;
     margin-top: 79px;
-    float: left;
+    float: right;
 }
 
 .nav__list {
@@ -133,7 +140,7 @@
     background-color: #34547A;
 }
 
-.my-projects_lists {
+.my-projects__lists {
     padding-top: 100px;
     margin-left: 405px;
 }
@@ -280,4 +287,152 @@
     position: absolute;
     top: 211px;
     left: 190px;
+}
+
+.Microsoft {
+    margin: 72px 375px 100px 405px;
+}
+
+.Microsoft__list {
+    width: 255px;
+    height: 120px;
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+}
+
+.feedback {
+    background-color: #EEEFF1;
+}
+
+.feedback__h3 {
+    padding-top: 100px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+
+.feedback__p {
+    width: 540px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin: 0px auto 65px auto;
+}
+
+.feedback__forms {
+    width: 540px;
+    margin: 0 auto;
+}
+
+.feedback__forms-name {
+    width: 255px;
+    height: 50px;
+    margin-right: 30px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    float: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    border: 0px;
+}
+
+.feedback__forms-email {
+    width: 255px;
+    height: 50px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    float: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    border: 0px;
+}
+
+.feedback__forms-message {
+    width: 540px;
+    height: 212px;
+    margin-top: 20px;
+    padding-top: 17px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    border: 0px;
+}
+
+.feedback__forms-send {
+    width: 190px;
+    height: 55px;
+    margin: 50px 175px 100px 175px;
+    background: #34547A;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.footer {
+    height: 151px;
+    background-color: #34547A;
+}
+
+.footer__text {
+    float: left;
+    padding-top: 50px;
+    padding-left: 406px;
+}
+
+.footer__text-h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.footer__text-p {
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.footer__socialNetwork {
+    float: right;
+    margin-right: 367px;
+    margin-top: 64.59px;
+}
+
+.footer__socialNetwork-vk {
+    margin-right: 22px;
 }

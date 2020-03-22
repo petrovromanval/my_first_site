@@ -39,8 +39,8 @@
                     стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
             </section>
 
-            <section class="my-projects">
-                <ul class="my-projects_lists">
+            <div class="my-projects">
+                <ul class="my-projects__lists">
                     <li class="my-projects__list"><a class="my-projects__link" href="#"><img src="img/numbers__item.svg"
                                 alt="my projects"></a></li>
                     <li class="my-projects__list"><a class="my-projects__link" href="#"><img src="img/numbers__item.svg"
@@ -54,7 +54,7 @@
                     <li class="my-projects__list"><a class="my-projects__link" href="#"><img src="img/numbers__item.svg"
                                 alt="my projects"></a></li>
                 </ul>
-            </section>
+            </div>
 
             <section class="my-skills">
                 <h3 class="my-skills__h3">Мои навыки</h3>
@@ -89,25 +89,51 @@
                  </video>   
             </section>
 
-            <section class="pictures">
-                <div class="pictures__odd"><img src="img/Rectangle 7.3.jpg" alt="pictures-even" width="480" height="480"></div>
+            <div class="pictures clearfix">
+                <div class="pictures__odd"><img src="img/Rectangle7.3.jpg" alt="pictures-even" width="480" height="480"></div>
                 <div class="pictures__mute">
-                    <img class="pictures__mute-pic" src="img/Rectangle 7.jpg" alt="pictures-odd" width="480" height="480">
+                    <img class="pictures__mute-pic" src="img/Rectangle7.jpg" alt="pictures-odd" width="480" height="480">
                     <div class="pictures__mute-veil"></div>
                     <img class="pictures__mute-view" src="img/view.svg" alt="view" width="100" height="100">
                 </div>
-                <div class="pictures__odd"><img src="img/Rectangle 7.3.jpg" alt="pictures-even" width="480" height="480"></div>
-                <div class="pictures__even"><img src="img/Rectangle 7.jpg" alt="pictures-odd" width="480" height="480"></div>
-                <div class="pictures__odd"><img src="img/Rectangle 7.3.jpg" alt="pictures-even" width="480" height="480"></div>
-                <div class="pictures__even"><img src="img/Rectangle 7.jpg" alt="pictures-odd" width="480" height="480"></div>
-                <div class="pictures__odd"><img src="img/Rectangle 7.3.jpg" alt="pictures-even" width="480" height="480"></div>
-                <div class="pictures__even"><img src="img/Rectangle 7.jpg" alt="pictures-odd" width="480" height="480"></div>
+                <div class="pictures__odd"><img src="img/Rectangle7.3.jpg" alt="pictures-even" width="480" height="480"></div>
+                <div class="pictures__even"><img src="img/Rectangle7.jpg" alt="pictures-odd" width="480" height="480"></div>
+                <div class="pictures__odd"><img src="img/Rectangle7.3.jpg" alt="pictures-even" width="480" height="480"></div>
+                <div class="pictures__even"><img src="img/Rectangle7.jpg" alt="pictures-odd" width="480" height="480"></div>
+                <div class="pictures__odd"><img src="img/Rectangle7.3.jpg" alt="pictures-even" width="480" height="480"></div>
+                <div class="pictures__even"><img src="img/Rectangle7.jpg" alt="pictures-odd" width="480" height="480"></div>
+            </div>
+
+            <ul class="Microsoft clearfix">
+                <li class="Microsoft__list"><img src="img/Rectangle9.jpg" alt="Mocrosoft"></li>
+                <li class="Microsoft__list"><img src="img/Rectangle9.jpg" alt="Mocrosoft"></li>
+                <li class="Microsoft__list"><img src="img/Rectangle9.jpg" alt="Mocrosoft"></li>
+                <li class="Microsoft__list"><img src="img/Rectangle9.jpg" alt="Mocrosoft"></li>
+            </ul>
+
+            <section class="feedback clearfix">
+                <h3 class="feedback__h3">Хотите веб-сайт?</h3>
+                <p class="feedback__p"> Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                    Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                <form class="feedback__forms" action="#">
+                    <input class="feedback__forms-name" type="text" placeholder="Ваше имя">
+                    <input class="feedback__forms-email" type="email" placeholder="Ваш e-mail"> 
+                    <textarea class="feedback__forms-message clerfix" placeholder="Сообщение"></textarea>
+                    <button class="feedback__forms-send" type="submit">Отправить</button>
+                </form>    
             </section>
-
-
-            
         </main>
-        <footer></footer>
+        <footer class="footer">
+            <div class="footer__text">
+                <h5 class="footer__text-h5">Петров Роман</h5>
+                <p class="footer__text-p">&copy;&nbsp; 2020 Все права защищены</p>
+            </div>
+            <div class="footer__socialNetwork">
+                <img class="footer__socialNetwork-vk" src="img/Vector.svg" alt="vk" width="44" height="23">
+                <img class="footer__socialNetwork-vk" src="img/Vector.svg" alt="vk" width="44" height="23">
+                <img class="footer__socialNetwork-vk" src="img/Vector.svg" alt="vk" width="44" height="23">
+            </div>
+        </footer>
     </div>
 </body>
 
