@@ -17,9 +17,7 @@
 }
 
 .header {
-    height: 700px;
     background-color: #EEEFF1;
-    position: relative;
 }
 
 .header__logo {
@@ -31,20 +29,20 @@
     margin-top: 57px;
 }
 
-.nav {
+.header__nav {
     height: 16px;
-    margin-right: 371px;
-    margin-top: 79px;
+    padding-right: 371px;
+    padding-top: 79px;
     float: right;
 }
 
-.nav__list {
+.header__nav-list {
     list-style-type: none;
     float: left;
     margin-right: 42px;
 }
 
-.nav__link {
+.header__nav-list-link {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -56,26 +54,29 @@
     color: #000000;
 }
 
-.nav__link_active {
+.header__nav-list-link_active {
     color: #34547A;
 }
 
-.header__picture {
-    clear: both;
+.descriptionSite {
+    padding-top: 168.6px;
+    padding-bottom: 188px;
+    background-color: #EEEFF1;
+    position: relative;
+}
+
+.descriptionSite__picture {
     float: left;
-    margin-top: 161px;
-    margin-left: 503.5px;
+    margin-left: 487px;
 }
 
-.header__text {
+.descriptionSite__text {
+    margin-left: 131px;
+    float: left;
     width: 541px;
-    height: 45px;
-    position: absolute;
-    top: 257px;
-    left: 974px;
 }
 
-.header__text-h1 {
+.descriptionSite__text-h1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -84,7 +85,7 @@
     margin-bottom: 60px;
 }
 
-.header__text-p {
+.descriptionSite__text-p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -93,12 +94,12 @@
     color: #727272;
 }
 
-.header__form-button {
+.descriptionSite__form-button {
     width: 225px;
     height: 65px;
     background-color: #34547A;
     position: absolute;
-    top: 489px;
+    top: 420px;
     left: 975px;
     font-family: Roboto;
     font-style: normal;
@@ -111,8 +112,8 @@
 }
 
 .about-me__h3 {
-    margin-top: 119px;
-    margin-bottom: 50px;
+    padding-top: 119px;
+    padding-bottom: 50px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -132,23 +133,24 @@
     text-align: center;
     color: #727272;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 
 .my-projects {
-    margin-top: 100px;
-    height: 250px;
     background-color: #34547A;
 }
 
 .my-projects__lists {
-    padding-top: 100px;
-    margin-left: 405px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .my-projects__list {
-    list-style-type: none;
     float: left;
-    margin-right: 52.33px;
+    list-style-type: none;
+    padding-right: 52.33px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .my-skills {
@@ -188,7 +190,6 @@
 }
 
 .my-skills__line-p {
-    position: absolute;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -256,41 +257,35 @@
 }
 
 .pictures {
-    margin-top: 28px;
+    width: 1920px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .pictures__odd, .pictures__even {
+    width: 25%;
     float: left;
 }
 
-
-.pictures__mute {
-    width: 480px;
-    height: 480px;
-    position: relative;
-    float: left;
-}
-
-.pictures__mute-pic {
-    display: block;
-    position: absolute;
-}
 
 .pictures__mute-veil {
-    width: 480px;
-    height: 480px;
+    width: 25%;
+    height: 50%;
     background-color: rgba(52, 84, 122, 0.8);
     position: absolute;
+    left: 25%;
 }
 
 .pictures__mute-view {
     position: absolute;
-    top: 211px;
-    left: 190px;
+    left: 35%;
+    top: 20%;
 }
 
 .Microsoft {
-    margin: 72px 375px 100px 405px;
+    width: 1150px;
+    margin: 0 auto;
+    padding: 72px 0px 100px 0px;
 }
 
 .Microsoft__list {
@@ -398,14 +393,14 @@
 }
 
 .footer {
-    height: 151px;
     background-color: #34547A;
 }
 
 .footer__text {
     float: left;
-    padding-top: 50px;
-    padding-left: 406px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 406px;
 }
 
 .footer__text-h5 {
